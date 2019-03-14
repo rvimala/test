@@ -9,4 +9,5 @@ create table emp(
   deptno   number(2,0),  
   constraint pk_emp primary key (empno),  
   constraint fk_deptno foreign key (deptno) references dept (deptno)  
-);
+)
+;
